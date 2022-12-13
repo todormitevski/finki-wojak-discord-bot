@@ -50,7 +50,7 @@ async def mudrost(ctx):
                    + "\nby -" + json.loads(response.text)['author']
                    + "-`***")
 
-# connect/disconnect to/from voice
+# connect/disconnect voice
 @client.command(pass_context = True)
 async def join(ctx):
     if(ctx.author.voice):
