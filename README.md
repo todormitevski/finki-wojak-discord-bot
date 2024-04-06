@@ -9,7 +9,7 @@ FINKI Wojak is a Python-based Discord bot designed to manage interactions within
 - **Voice Channel Management**: Commands to join, leave, play, and stop audio in voice channels.
 - **Sentiment Analysis**: Assess the mood of specified users based on their recent messages.
 - **Word Filtering**: Automatically detects and deletes messages containing banned words.
-- **Developer Command**: A command specifically for developers to purge spam messages.
+- **Spam Clearing Command**: This command allows administrators to clear spam messages from the server.
 - **Message Logging**: Logs user messages to keep track of user interactions and server activity.
 
 ## Setup
@@ -33,10 +33,13 @@ FINKI Wojak is a Python-based Discord bot designed to manage interactions within
 - **$dc**: Leave a voice channel.
 - **$play [media_name]**: Play audio in the voice channel.
 - **$stop**: Stop playing media.
-- **$purge [amount]**: Delete spam messages (developer command).
+- **$purge [amount]**: Delete spam messages.
 
 ## Contributing
 Contributions are welcome! Feel free to fork the repository, make changes, and submit pull requests.
+
+## Notice
+This project is a personal endeavor and is in no way associated with or endorsed by the body of the Faculty of Computer Science and Engineering (FCSE), also known as FINKI. It is developed independently as a personal project for Discord server management.
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
